@@ -9,6 +9,35 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        qw-TAB {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        qe-s-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <13 15>;
+        };
+
+        lc-enter {
+            bindings = <&kp ENTER>;
+            key-positions = <33 34>;
+        };
+
+        m-bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <44 45>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <44 45>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
