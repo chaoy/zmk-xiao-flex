@@ -55,42 +55,55 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-&kp EQUAL         &kp N1     &kp N2           &kp N3     &kp N4         &kp N5                            &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB           &kp Q      &kp W            &kp E      &kp R          &kp T                             &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSLH
-&kp LEFT_CONTROL  &kp A      &kp S            &kp D      &kp F          &kp G                             &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z      &kp X            &kp C      &kp V          &kp B                             &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-&gresc            &kp GLOBE  &kp LEFT         &kp RIGHT                           &kp UP                  &kp DOWN   &kp LBKT  &kp RBKT
+&kp EQUAL         &kp N1     &kp N2           &kp N3     &kp N4           &kp N5                              &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp MINUS
+&kp TAB           &kp Q      &kp W            &kp E      &kp R            &kp T                               &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSLH
+&kp LEFT_CONTROL  &kp A      &kp S            &kp D      &kp F            &kp G                               &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z      &kp X            &kp C      &kp V            &kp B                               &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+&gresc            &kp GLOBE  &kp LEFT         &kp RIGHT                             &kp UP                    &kp DOWN   &kp LBKT  &kp RBKT
 &kp LALT          &kp LCMD                    &kp RGUI   &kp ESCAPE
-                                              &kp SPACE  &kp BACKSPACE  &kp HOME  &kp PAGE_UP  &kp ENTER  &kp SPACE
-                  &lt 1 END  &lt 1 PAGE_DOWN
+                                              &kp SPACE  &lt 1 BACKSPACE  &kp HOME  &kp PAGE_UP  &lt 2 ENTER  &kp SPACE
+                  &lt 3 END  &lt 3 PAGE_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        layer_1 {
+        num {
             bindings = <
-&kp LSHFT   &kp F2        &kp F3        &kp F4         &kp F5        &kp F6                         &kp F7         &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
-&trans      &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans      &kp NUMBER_1  &kp N2        &kp N3         &kp N4        &kp N5                         &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &trans
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4                   &trans         &trans        &trans        &trans        &trans        &trans
-&bt BT_CLR  &trans        &trans        &trans                                      &trans          &trans         &trans        &trans
-&trans      &trans                      &trans         &trans
-                                        &bootloader    &trans        &trans         &trans  &trans  &trans
-            &trans        &trans
+&kp F1  &kp F2         &kp F3        &kp F4         &kp F5          &kp F6                         &kp F7     &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
+&trans  &kp LS(EXCL)   &kp HASH      &kp DOLLAR     &kp PERCENT     &kp CARET                      &kp PLUS   &kp N7  &kp N8  &kp N9   &kp STAR   &trans
+&trans  &kp LCTRL      &kp LALT      &kp LGUI       &kp LSHFT       &kp GLOBE                      &kp N0     &kp N4  &kp N5  &kp N6   &kp EQUAL  &trans
+&trans  &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_REDO                  &kp MINUS  &kp N1  &kp N2  &kp N3   &kp FSLH   &trans
+&trans  &trans         &trans        &trans                                        &trans          &trans     &trans  &trans
+&trans  &trans                       &trans         &trans
+                                     &trans         &trans          &trans         &trans  &trans  &trans
+        &trans         &trans
             >;
         };
 
-        layer_2 {
+        sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                  &trans          &trans       &trans  &trans
-&trans  &trans          &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &bootloader
-        &trans  &trans
+&trans  &trans     &trans         &trans                &trans                 &trans                            &trans       &trans     &trans      &trans     &trans   &trans
+&trans  &kp TILDE  &kp UNDER      &kp LBKT              &kp RBKT               &kp PIPE                          &kp HOME     &kp PG_UP  &kp UP      &kp PG_DN  &kp END  &trans
+&trans  &kp GRAVE  &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS                          &trans       &kp LEFT   &kp DOWN    &kp RIGHT  &kp RET  &trans
+&trans  &kp BSLH   &kp LESS_THAN  &kp LEFT_BRACE        &kp RBRC               &kp GREATER_THAN                  &key_repeat  &kp BSPC   &kp DELETE  &kp TAB    &kp ESC  &trans
+&trans  &trans     &trans         &trans                                                         &trans          &trans       &trans     &trans
+&trans  &trans                    &trans                &trans
+                                  &trans                &trans                 &trans            &trans  &trans  &trans
+        &trans     &trans
+            >;
+        };
+
+        util {
+            bindings = <
+&trans  &trans        &trans        &trans        &trans      &trans                         &trans       &trans     &trans    &trans     &trans   &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp C_RECORD                   &kp HOME     &kp PG_UP  &kp UP    &kp PG_DN  &kp END  &trans
+&trans  &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT   &kp C_PLAY                     &trans       &kp LEFT   &kp DOWN  &kp RIGHT  &kp RET  &trans
+&trans  &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)   &kp LS(LG(Z))                  &key_repeat  &kp BSPC   &kp DEL   &kp TAB    &kp ESC  &trans
+&trans  &trans        &trans        &trans                                   &trans          &trans       &trans     &trans
+&trans  &trans                      &trans        &trans
+                                    &bootloader   &trans      &trans         &trans  &trans  &bootloader
+        &trans        &trans
             >;
         };
     };
