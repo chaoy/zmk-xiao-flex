@@ -29,12 +29,17 @@
 
         m-bs {
             bindings = <&kp BACKSPACE>;
-            key-positions = <44 45>;
+            key-positions = <44 43>;
         };
 
         del {
             bindings = <&kp DELETE>;
             key-positions = <44 45>;
+        };
+
+        we-s-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <14 15>;
         };
     };
 
@@ -54,7 +59,7 @@
 &kp TAB           &kp Q      &kp W            &kp E      &kp R          &kp T                             &kp Y      &kp U     &kp I      &kp O    &kp P     &kp BSLH
 &kp LEFT_CONTROL  &kp A      &kp S            &kp D      &kp F          &kp G                             &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT         &kp Z      &kp X            &kp C      &kp V          &kp B                             &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-&gresc            &mo 1      &kp LEFT         &kp RIGHT                           &kp UP                  &kp DOWN   &kp LBKT  &kp RBKT
+&gresc            &kp GLOBE  &kp LEFT         &kp RIGHT                           &kp UP                  &kp DOWN   &kp LBKT  &kp RBKT
 &kp LALT          &kp LCMD                    &kp RGUI   &kp ESCAPE
                                               &kp SPACE  &kp BACKSPACE  &kp HOME  &kp PAGE_UP  &kp ENTER  &kp SPACE
                   &lt 1 END  &lt 1 PAGE_DOWN
