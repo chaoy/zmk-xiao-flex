@@ -12,32 +12,32 @@
     combos {
         compatible = "zmk,combos";
 
-        qw-TAB {
+        qw {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
         };
 
-        qe-s-tab {
+        qe {
             bindings = <&kp LS(TAB)>;
             key-positions = <13 15>;
         };
 
-        lc-enter {
+        lsc {
             bindings = <&kp ENTER>;
             key-positions = <33 34>;
         };
 
-        m-bs {
+        mcomma {
             bindings = <&kp BACKSPACE>;
             key-positions = <44 43>;
         };
 
-        del {
+        commaperiod {
             bindings = <&kp DELETE>;
             key-positions = <44 45>;
         };
 
-        we-s-tab {
+        we {
             bindings = <&kp LS(TAB)>;
             key-positions = <14 15>;
         };
