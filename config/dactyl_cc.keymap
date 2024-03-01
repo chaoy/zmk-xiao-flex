@@ -12,34 +12,64 @@
     combos {
         compatible = "zmk,combos";
 
-        qw {
+        tab {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
         };
 
-        qe {
+        stab {
             bindings = <&kp LS(TAB)>;
             key-positions = <13 15>;
         };
 
-        lsc {
+        enter {
             bindings = <&kp ENTER>;
             key-positions = <33 34>;
         };
 
-        mcomma {
+        bs {
             bindings = <&kp BACKSPACE>;
             key-positions = <44 43>;
         };
 
-        commaperiod {
+        del {
             bindings = <&kp DELETE>;
             key-positions = <44 45>;
         };
 
-        we {
+        stab2 {
             bindings = <&kp LS(TAB)>;
             key-positions = <14 15>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <38 39>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <39 40>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <37 38>;
+        };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <37 38 39>;
+        };
+
+        redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <37 39>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <26 28>;
         };
     };
 
