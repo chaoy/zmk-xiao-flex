@@ -80,9 +80,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            hold-trigger-key-positions = <6 30 18 42 43 44 45 46 7 19 31 32 33 22 20 8 9 21 10 34 11 23 35 47 52 54 53 55 58 67 63 59 65 64>;
+            tapping-term-ms = <180>;
+            flavor = "hold-preferred";
+            hold-trigger-key-positions = <6 30 18 42 43 44 45 46 7 19 31 32 33 22 20 8 9 21 10 34 11 23 35 47 52 54 53 55 58 67 63 59 65 64 60 61 56 57 62 66>;
         };
 
         hmr: homerow_mods_right {
@@ -91,9 +91,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-            hold-trigger-key-positions = <0 12 24 36 37 25 13 1 2 26 14 3 15 27 38 48 49 50 39 51 40 28 16 4 5 17 41 29 56 57 62 66 61 60>;
+            tapping-term-ms = <180>;
+            flavor = "hold-preferred";
+            hold-trigger-key-positions = <0 12 24 36 37 25 13 1 2 26 14 3 15 27 38 48 49 50 39 51 40 28 16 4 5 17 41 29 56 57 62 66 61 60 58 59 63 64 65 67>;
         };
     };
 
@@ -111,8 +111,8 @@
             bindings = <
 &kp EQUAL                  &kp N1                          &kp N2           &kp N3                   &kp N4               &kp N5                              &kp N6       &kp N7              &kp N8                &kp N9            &kp N0                        &kp MINUS
 &kp TAB                    &kp Q                           &kp W            &kp E                    &kp R                &kp T                               &kp Y        &kp U               &kp I                 &kp O             &kp P                         &kp BSLH
-&hml LEFT_CONTROL GRAVE    &hml LEFT_CONTROL A             &hml LEFT_ALT S  &hml LCMD D              &hml LEFT_SHIFT F    &kp G                               &kp H        &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMICOLON  &hmr RIGHT_CONTROL SQT
-&hml LEFT_SHIFT BACKSLASH  &kp Z                           &kp X            &kp C                    &kp V                &kp B                               &kp N        &kp M               &kp COMMA             &kp DOT           &kp FSLH                      &hmr RIGHT_SHIFT SLASH
+&mt LCTRL GRAVE            &hml LEFT_CONTROL A             &hml LEFT_ALT S  &hml LCMD D              &hml LEFT_SHIFT F    &kp G                               &kp H        &hmr RIGHT_SHIFT J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_CONTROL SEMICOLON  &mt RIGHT_CONTROL SINGLE_QUOTE
+&mt LEFT_SHIFT BACKSLASH   &kp Z                           &kp X            &kp C                    &kp V                &kp B                               &kp N        &kp M               &kp COMMA             &kp DOT           &kp FSLH                      &mt RIGHT_SHIFT SLASH
 &gresc                     &kp GLOBE                       &kp LEFT         &kp RIGHT                                               &kp UP                    &kp DOWN     &kp LBKT            &kp RBKT
 &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_COMMAND RIGHT_BRACKET                   &mt RIGHT_COMMAND MINUS  &mt RIGHT_ALT EQUAL
                                                                             &lt 4 SPACE              &lt 1 BACKSPACE      &kp HOME  &kp PAGE_UP  &lt 2 ENTER  &lt 4 SPACE
@@ -151,8 +151,8 @@
         util {
             bindings = <
 &trans  &trans        &trans        &trans        &trans      &trans                         &trans       &trans     &trans    &trans     &trans   &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp C_RECORD                   &kp HOME     &kp PG_UP  &kp UP    &kp PG_DN  &kp END  &trans
-&trans  &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT   &kp C_PLAY                     &trans       &kp LEFT   &kp DOWN  &kp RIGHT  &kp RET  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &trans                         &kp HOME     &kp PG_UP  &kp UP    &kp PG_DN  &kp END  &trans
+&trans  &kp LCTRL     &kp LALT      &kp LGUI      &kp LSHFT   &trans                         &trans       &kp LEFT   &kp DOWN  &kp RIGHT  &kp RET  &trans
 &trans  &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)   &kp LS(LG(Z))                  &key_repeat  &kp BSPC   &kp DEL   &kp TAB    &kp ESC  &trans
 &trans  &trans        &trans        &trans                                   &trans          &trans       &trans     &trans
 &trans  &trans                      &trans        &trans
