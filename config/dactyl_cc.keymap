@@ -81,9 +81,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "balanced";
-            hold-trigger-key-positions = <6 30 18 42 43 44 45 46 7 19 31 32 33 22 20 8 9 21 10 34 11 23 35 47 52 54 53 55 58 67 63 59 65 64 60 61 56 57 62 66>;
-            hold-trigger-on-release;
+            flavor = "tap-preferred";
         };
 
         hmr: homerow_mods_right {
@@ -93,9 +91,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "balanced";
-            hold-trigger-key-positions = <0 12 24 36 37 25 13 1 2 26 14 3 15 27 38 48 49 50 39 51 40 28 16 4 5 17 41 29 56 57 62 66 61 60 58 59 63 64 65 67>;
-            hold-trigger-on-release;
+            flavor = "tap-preferred";
         };
     };
 
