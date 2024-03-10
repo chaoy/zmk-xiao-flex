@@ -135,14 +135,14 @@
 
         sym {
             bindings = <
-&trans  &trans      &trans         &trans                &trans                 &trans                            &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &kp TILDE   &kp UNDER      &kp LBKT              &kp RBKT               &kp PIPE                          &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp PERIOD  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH                         &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp BSLH    &kp LESS_THAN  &kp LEFT_BRACE        &kp RBRC               &kp GREATER_THAN                  &trans  &trans    &trans    &trans     &trans  &trans
-&trans  &trans      &trans         &trans                                                         &trans          &trans  &trans    &trans
-&trans  &trans                     &trans                &trans
-                                   &trans                &trans                 &trans            &trans  &trans  &trans
-        &trans      &trans
+&kp F1  &kp F2         &kp F3         &kp F4                &kp F5                 &kp F6                            &kp F7     &kp F8           &kp F9         &kp F10        &kp F11            &kp F12
+&trans  &kp GRAVE      &kp UNDER      &kp LBKT              &kp RBKT               &kp PIPE                          &trans     &trans           &trans         &trans         &trans             &trans
+&trans  &kp PERCENT    &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH                         &kp GLOBE  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
+&trans  &kp AMPERSAND  &kp LESS_THAN  &kp LEFT_BRACE        &kp RBRC               &kp GREATER_THAN                  &trans     &trans           &trans         &trans         &trans             &trans
+&trans  &trans         &trans         &trans                                                         &trans          &trans     &trans           &trans
+&trans  &trans                        &trans                &trans
+                                      &trans                &trans                 &trans            &trans  &trans  &trans
+        &trans         &trans
             >;
         };
 
