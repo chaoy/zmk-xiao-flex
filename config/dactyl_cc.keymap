@@ -24,7 +24,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <33 34>;
+            key-positions = <33 34 31 32>;
         };
 
         bs {
@@ -64,12 +64,82 @@
 
         redo {
             bindings = <&kp LG(LS(Z))>;
-            key-positions = <37 39>;
+            key-positions = <37 39 38 41>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <26 28>;
+        };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <19 21>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <31 33>;
+        };
+
+        pg_up {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <19 20 21>;
+        };
+
+        pg_dn {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <31 32 33>;
+        };
+
+        aleft {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <31 32>;
+        };
+
+        aright {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <32 33>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <32 30>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <30 33>;
+        };
+
+        ca {
+            bindings = <&kp LC(A)>;
+            key-positions = <30 32 33>;
+        };
+
+        ce {
+            bindings = <&kp LC(E)>;
+            key-positions = <32 33 34>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <18 20 21>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <20 21 22>;
+        };
+
+        back {
+            bindings = <&kp LG(LEFT_BRACKET)>;
+            key-positions = <20 19>;
+        };
+
+        fwd {
+            bindings = <&kp LG(RIGHT_BRACKET)>;
+            key-positions = <20 21>;
         };
     };
 
