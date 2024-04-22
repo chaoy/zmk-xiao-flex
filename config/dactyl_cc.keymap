@@ -218,27 +218,27 @@
 
         num {
             bindings = <
-&kp F1  &kp F2           &kp F3     &kp F4      &kp F5       &kp F6                         &kp F7     &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
-&trans  &kp EXCLAMATION  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET                      &kp PLUS   &kp N7  &kp N8  &kp N9   &kp STAR   &trans
-&trans  &kp LCTRL        &kp LALT   &kp LGUI    &kp LSHFT    &kp GLOBE                      &kp N0     &kp N4  &kp N5  &kp N6   &kp EQUAL  &trans
-&trans  &kp LG(Z)        &kp LG(X)  &kp LG(C)   &kp LG(V)    &kp LG(LS(Z))                  &kp MINUS  &kp N1  &kp N2  &kp N3   &kp FSLH   &trans
-&trans  &trans           &trans     &trans                                  &trans          &trans     &trans  &trans
+&kp F1  &kp F2           &kp F3     &kp F4      &kp F5       &kp F6                                &kp F7        &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
+&trans  &kp EXCLAMATION  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET                             &kp PLUS      &kp N7  &kp N8  &kp N9   &kp STAR   &trans
+&trans  &kp LCTRL        &kp LALT   &kp LGUI    &kp LSHFT    &kp GLOBE                             &kp N0        &kp N4  &kp N5  &kp N6   &kp EQUAL  &trans
+&trans  &kp LG(Z)        &kp LG(X)  &kp LG(C)   &kp LG(V)    &kp LG(LS(Z))                         &kp MINUS     &kp N1  &kp N2  &kp N3   &kp FSLH   &trans
+&trans  &trans           &trans     &trans                                  &trans                 &trans        &trans  &trans
 &trans  &trans                      &trans      &trans
-                                    &trans      &trans       &trans         &trans  &trans  &trans
-        &trans           &trans
+                                    &trans      &trans       &trans         &trans  &kp AMPERSAND  &kp NUMBER_0
+        &trans           &kp CARET
             >;
         };
 
         sym {
             bindings = <
-&kp F1  &kp F2         &kp F3         &kp F4                &kp F5                 &kp F6                            &kp F7     &kp F8           &kp F9         &kp F10        &kp F11            &kp F12
-&trans  &kp GRAVE      &kp UNDER      &kp LBKT              &kp RBKT               &kp PIPE                          &trans     &trans           &trans         &trans         &trans             &trans
-&trans  &kp PERCENT    &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH                         &kp GLOBE  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
-&trans  &kp AMPERSAND  &kp LESS_THAN  &kp LEFT_BRACE        &kp RBRC               &kp GREATER_THAN                  &trans     &trans           &trans         &trans         &trans             &trans
-&trans  &trans         &trans         &trans                                                         &trans          &trans     &trans           &trans
-&trans  &trans                        &trans                &trans
-                                      &trans                &trans                 &trans            &trans  &trans  &trans
-        &trans         &trans
+&kp F1  &kp F2     &kp F3         &kp F4                &kp F5                 &kp F6                            &kp F7     &kp F8           &kp F9         &kp F10        &kp F11            &kp F12
+&trans  &kp GRAVE  &kp UNDER      &kp LBKT              &kp RBKT               &kp PIPE                          &kp F6     &kp F7           &kp F8         &kp F9         &kp F10            &trans
+&trans  &kp MINUS  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH                         &kp GLOBE  &kp RIGHT_SHIFT  &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
+&trans  &kp TILDE  &kp LESS_THAN  &kp LEFT_BRACE        &kp RBRC               &kp GREATER_THAN                  &kp F1     &kp F2           &kp F3         &kp F4         &kp F5             &trans
+&trans  &trans     &trans         &trans                                                         &trans          &trans     &trans           &trans
+&trans  &trans                    &trans                &trans
+                                  &trans                &kp F11                &trans            &trans  &trans  &trans
+        &kp F12    &trans
             >;
         };
 
